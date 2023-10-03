@@ -3,8 +3,8 @@ const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
 const extractSummaryData = require("./extractSummaryData");
+const port = process.env.PORT || 3000;
 const app = express();
-const port = 3000;
 
 app.use(cors());
 
